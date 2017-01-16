@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Touch light</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="register-box">
+		Name: <input type="text" id="name" /><br />
+		Choose a color:
+		<select id="color">
+			<option value="#A91666">Pink</option>
+			<option value="#A9A316">Yellow</option>
+			<option value="#16A959">Green</option>
+			<option value="#161DA9">Blue</option>
+		</select>
+		<button id="register-button">OK</button>
+	</div>
+	<div class="identities-box">
+		<ul id="identities">
+		</ul>
+	</div>
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>

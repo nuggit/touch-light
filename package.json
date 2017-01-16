@@ -1,0 +1,15 @@
+{
+  "name": "touch-light",
+  "version": "0.0.0",
+  "description": "A touch light for your friends and loved ones",
+  "main": "index.js",
+  "author": "Nagisa Day",
+  "private": true,
+  "license": "BSD",
+  "dependencies": {
+    "express": "4.13.4"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
