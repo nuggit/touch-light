@@ -15,6 +15,7 @@ I thought it would make for a fun little project to finally deploy something to 
 You need node and npm to run this locally:
 ```
 npm install
+gulp
 node app.js
 ```
 
